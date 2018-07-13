@@ -1,0 +1,101 @@
+,Rxn description,Formula,Gene-reaction association,Genes,Proteins,Subsystem,Reversible,LB,UB,Objective,Confidence Score,EC Number,Notes,References
+CYTDt,CYTDt,cytd[e] <=> cytd[c],(PFA0160c) or (MAL8P1_32) or (PF13_0252) or (PF14_0662),MAL8P1_32 PF13_0252 PF14_0662 PFA0160c,,Transport base,1,0,0,0,,,no pyrimidine salvage,
+DCYTt,DCYTt,dcyt[e] <=> dcyt[c],(PFA0160c) or (MAL8P1_32) or (PF13_0252) or (PF14_0662),MAL8P1_32 PF13_0252 PF14_0662 PFA0160c,,Transport base,1,0,0,0,,,no pyrimidine salvage,
+DTTPt,DTTPt,dttp[e] <=> dttp[c],(PFA0160c) or (MAL8P1_32) or (PF13_0252) or (PF14_0662),MAL8P1_32 PF13_0252 PF14_0662 PFA0160c,,Transport base,1,0,0,0,,,no pyrimidine salvage,
+DURIt,DURIt,duri[e] <=> duri[c],(PFA0160c) or (MAL8P1_32) or (PF13_0252) or (PF14_0662),MAL8P1_32 PF13_0252 PF14_0662 PFA0160c,,Transport base,1,0,0,0,,,no pyrimidine salvage,
+THYMDt1,THYMDt1,thymd[e] -> thymd[c],(PFA0160c) or (MAL8P1_32) or (PF13_0252) or (PF14_0662),MAL8P1_32 PF13_0252 PF14_0662 PFA0160c,,Transport base,0,0,0,0,,,no pyrimidine salvage,
+URAt,URAt,ura[e] <=> ura[c],(PFA0160c) or (MAL8P1_32) or (PF13_0252) or (PF14_0662),MAL8P1_32 PF13_0252 PF14_0662 PFA0160c,,Transport base,1,0,0,0,,,no pyrimidine salvage,
+URIt,URIt,uri[e] <=> uri[c],(PFA0160c) or (MAL8P1_32) or (PF13_0252) or (PF14_0662),MAL8P1_32 PF13_0252 PF14_0662 PFA0160c,,Transport base,1,0,0,0,,,no pyrimidine salvage,
+NTD1pp,5'-nucleotidase,dump[c] + h2o[c]  => duri[c] + pi[c] ,(PFL0305c),PFL0305c,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,duplicate,
+NTD10pp,5'-nucleotidase,h2o[c] + xmp[c]  => pi[c] + xtsn[c] ,(PFL0305c),PFL0305c,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,duplicate,
+NTD11pp,5'-nucleotidase,h2o[c] + imp[c]  => ins[c] + pi[c] ,(PFL0305c),PFL0305c,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,duplicate,
+NTD12pp,5'-nucleotidase,dimp[c] + h2o[c]  => din[c] + pi[c] ,(PFL0305c),PFL0305c,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,duplicate,
+NTD2pp,5'-nucleotidase,h2o[c] + ump[c]  => pi[c] + uri[c] ,(PFL0305c),PFL0305c,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,duplicate,
+NTD3pp,5'-nucleotidase,dcmp[c] + h2o[c]  => dcyt[c] + pi[c] ,(PFL0305c),PFL0305c,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,duplicate,
+NTD4pp,5'-nucleotidase,cmp[c] + h2o[c]  => cytd[c] + pi[c] ,(PFL0305c),PFL0305c,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,duplicate,
+NTD5pp,5'-nucleotidase,dtmp[c] + h2o[c]  => pi[c] + thymd[c] ,(PFL0305c),PFL0305c,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,duplicate,
+NTD6pp,5'-nucleotidase,damp[c] + h2o[c]  => dad_2[c] + pi[c] ,(PFL0305c),PFL0305c,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,duplicate,
+NTD7pp,5'-nucleotidase,amp[c] + h2o[c]  => adn[c] + pi[c] ,(PFL0305c),PFL0305c,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,duplicate,
+NTD8pp,5'-nucleotidase,dgmp[c] + h2o[c]  => dgsn[c] + pi[c] ,(PFL0305c),PFL0305c,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,duplicate,
+NTD9pp,5'-nucleotidase,gmp[c] + h2o[c]  => gsn[c] + pi[c] ,(PFL0305c),PFL0305c,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,duplicate,
+PAPA120pp,phosphatidate phosphatase,h2o[c] + pa120[c]  => 12dgr120[c] + pi[c] ,(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,duplicate,
+PAPA140pp,phosphatidate phosphatase,h2o[c] + pa140[c]  => 12dgr140[c] + pi[c] ,(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,duplicate,
+PAPA141pp,phosphatidate phosphatase,h2o[c] + pa141[c]  => 12dgr141[c] + pi[c] ,(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,duplicate,
+PAPA160pp,phosphatidate phosphatase,h2o[c] + pa160[c]  => 12dgr160[c] + pi[c] ,(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,duplicate,
+PAPA161pp,phosphatidate phosphatase,h2o[c] + pa161[c]  => 12dgr161[c] + pi[c] ,(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,duplicate,
+PAPA180pp,phosphatidate phosphatase,h2o[c] + pa180[c]  => 12dgr180[c] + pi[c] ,(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,duplicate,
+PAPA181pp,phosphatidate phosphatase,h2o[c] + pa181[c]  => 12dgr181[c] + pi[c] ,(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,duplicate,
+PGPP120pp,phosphatidylglycerophosphatase,h2o[c] + pgp120[c]  => pg120[c] + pi[c] ,,,,Lipids PhosphatidylethanolaminePhosphatidylserineMetabolism,0,0,1000,0,,3.1.3.27,duplicate,
+PGPP140pp,phosphatidylglycerophosphatase,h2o[c] + pgp140[c]  => pg140[c] + pi[c] ,,,,Lipids PhosphatidylethanolaminePhosphatidylserineMetabolism,0,0,1000,0,,3.1.3.27,duplicate,
+PGPP141pp,phosphatidylglycerophosphatase,h2o[c] + pgp141[c]  => pg141[c] + pi[c] ,,,,Lipids PhosphatidylethanolaminePhosphatidylserineMetabolism,0,0,1000,0,,3.1.3.27,duplicate,
+PGPP160pp,phosphatidylglycerophosphatase,h2o[c] + pgp160[c]  => pg160[c] + pi[c] ,,,,Lipids PhosphatidylethanolaminePhosphatidylserineMetabolism,0,0,1000,0,,3.1.3.27,duplicate,
+PGPP161pp,phosphatidylglycerophosphatase,h2o[c] + pgp161[c]  => pg161[c] + pi[c] ,,,,Lipids PhosphatidylethanolaminePhosphatidylserineMetabolism,0,0,1000,0,,3.1.3.27,duplicate,
+PGPP180pp,phosphatidylglycerophosphatase,h2o[c] + pgp180[c]  => pg180[c] + pi[c] ,,,,Lipids PhosphatidylethanolaminePhosphatidylserineMetabolism,0,0,1000,0,,3.1.3.27,duplicate,
+PGPP181pp,phosphatidylglycerophosphatase,h2o[c] + pgp181[c]  => pg181[c] + pi[c] ,,,,Lipids PhosphatidylethanolaminePhosphatidylserineMetabolism,0,0,1000,0,,3.1.3.27,duplicate,
+GPDDA1pp,glycerophosphodiester phosphodiesterase,g3pc[c] + h2o[c]  => chol[c] + glyc3p[c] + h[c] ,(PF14_0060),PF14_0060,,Lipids PhosphatidylcholineMetabolism ; Lipids PhosphatidyletanolaminePhosphatidylserineMetabolism,0,0,1000,0,,3.1.4.46,duplicate,
+GPDDA2pp,glycerophosphodiester phosphodiesterase,g3pe[c] + h2o[c]  => etha[c] + glyc3p[c] + h[c] ,(PF14_0060),PF14_0060,,Lipids PhosphatidylcholineMetabolism ; Lipids PhosphatidyletanolaminePhosphatidylserineMetabolism,0,0,1000,0,,3.1.4.46,duplicate,
+GPDDA3pp,glycerophosphodiester phosphodiesterase,g3ps[c] + h2o[c]  => glyc3p[c] + h[c] + ser_L[c] ,(PF14_0060),PF14_0060,,Lipids PhosphatidylcholineMetabolism ; Lipids PhosphatidyletanolaminePhosphatidylserineMetabolism,0,0,1000,0,,3.1.4.46,duplicate,
+GPDDA4pp,glycerophosphodiester phosphodiesterase,g3pg[c] + h2o[c]  => glyc3p[c] + glyc[c] + h[c] ,(PF14_0060),PF14_0060,,Lipids PhosphatidylcholineMetabolism ; Lipids PhosphatidyletanolaminePhosphatidylserineMetabolism,0,0,1000,0,,3.1.4.46,duplicate,
+GPDDA5pp,glycerophosphodiester phosphodiesterase,g3pi[c] + h2o[c]  => glyc3p[c] + h[c] + inost[c] ,(PF14_0060),PF14_0060,,Lipids PhosphatidylcholineMetabolism ; Lipids PhosphatidyletanolaminePhosphatidylserineMetabolism,0,0,1000,0,,3.1.4.46,duplicate,
+CHTNASE,chitinase,chtn[c] + 2 h2o[c] -> 3 acgam[c],(PF07_0009) or (PFL2510w),PF07_0009 PFL2510w,,Carbohydrates AminosugarsMetabolism,0,0,1000,0,,3.2.1.14,truncated gene; no biological evidence for reaction,
+PSP_Lp,PSP Lp,h2o[c] + pser_L[c] -> pi[c] + ser_L[c],(PFI0880c),PFI0880c,,AminoAcids GlySerMetabolism,0,0,0,0,,3.1.3.2,Remove: required for invasion only,"10.1128/EC.00244-10; 43
+10.1016/j.jsb.2012.02.009"
+DM_HMFURN,DM HMFURN,hmfurn[c] ->,,,,Exchange,0,0,1000,0,,,hmfurn[c] never producted,
+5AOPt2,5AOPt2,5aop[e] + h[e] -> 5aop[c] + h[c],,,,Transport cofactpr,0,0,1000,0,,,No evidence for host 5aop; produced and consumed by parasite,
+METS,methionine synthase,5mthf[c] + hcys_L[c] -> h[c] + met_L[c] + thf[c],,,,AminoAcids MetPolyamineMetabolism,0,0,1000,0,,2.1.1.13,"no genetic evidence, and not needed for anything",
+AABTN,4-acetamidobutyrate deacetylase,4aabutn[c] + h2o[c] -> 4abut[c] + ac[c],,,,AminoAcids LysMetabolism,0,0,1000,0,,3.5.1.63,why is this here,
+FRD_mt,succinate dehydrogenase,fadh2[m] + fum[m] -> fad[m] + succ[m],(PF10_0334) or (PFL0630w),PF10_0334 PFL0630w,,Others MitochondrialTCACycle ; Carbohydrates PyruvateMetabolism ; Others MitochondrialElectronFlow,0,0,1000,0,,1.3.99.1,remove (duplicate of SUCD2_u6m with SUCD3_u6m),
+NADH2_u6cm_mt,NADH dehydrogenase,h[m] + nadh[m] + q8[m] -> nad[m] + q8h2[m],(PFI0735c),PFI0735c,,Others MitochondrialElectronFlow,0,0,1000,0,,1.6.99.3,Duplicate of NADH5,
+PAPA120,phosphatidate phosphatase,h2o[c] + pa120[c] -> 12dgr120[c] + pi[c],(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,PFC0995c is EC 2.3.1.20 (dag + acylCoA -> coA + tag),
+PAPA140,phosphatidate phosphatase,h2o[c] + pa140[c] -> 12dgr140[c] + pi[c],(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,PFC0995c is EC 2.3.1.20 (dag + acylCoA -> coA + tag),
+PAPA141,phosphatidate phosphatase,h2o[c] + pa141[c] -> 12dgr141[c] + pi[c],(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,PFC0995c is EC 2.3.1.20 (dag + acylCoA -> coA + tag),
+PAPA160,phosphatidate phosphatase,h2o[c] + pa160[c] -> 12dgr160[c] + pi[c],(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,PFC0995c is EC 2.3.1.20 (dag + acylCoA -> coA + tag),
+PAPA161,phosphatidate phosphatase,h2o[c] + pa161[c] -> 12dgr161[c] + pi[c],(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,PFC0995c is EC 2.3.1.20 (dag + acylCoA -> coA + tag),
+PAPA180,phosphatidate phosphatase,h2o[c] + pa180[c] -> 12dgr180[c] + pi[c],(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,PFC0995c is EC 2.3.1.20 (dag + acylCoA -> coA + tag),
+PAPA181,phosphatidate phosphatase,h2o[c] + pa181[c] -> 12dgr181[c] + pi[c],(PFC0995c),PFC0995c,,Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.3.4,PFC0995c is EC 2.3.1.20 (dag + acylCoA -> coA + tag),
+NTD5,5'-nucleotidase,dtmp[c] + h2o[c] -> pi[c] + thymd[c],,,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,(remove duplicate) IMP specific gene; Remove reaction (no genetic evidence and thymd is not used),Plasmodb
+NTD4,5'-nucleotidase,cmp[c] + h2o[c] -> cytd[c] + pi[c],,,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,(remove duplicate) IMP specific gene; Remove reaction (no genetic evidence and cytd is not used),Plasmodb
+NTD3,5'-nucleotidase,dcmp[c] + h2o[c] -> dcyt[c] + pi[c],,,,Nucleotides PurineMetabolism,0,0,1000,0,,3.1.3.5,(remove duplicate) IMP specific gene; Remove reaction (no genetic evidence and dcyt is not used),Plasmodb
+EX_thymd_LPAREN_e_RPAREN_,EX thymd e,thymd[e] <=>,,,,Exchange,1,0,0,0,,,Metabolite not used,
+G6Pt6_2pp,G6Pt6 2pp,g6p[e] + 2 pi[c] -> g6p[c] + 2 pi[e],,,,Transport,0,0,1000,0,,,No genetic evidence,
+F6Pt6_2pp,F6Pt6 2pp,f6p[e] + 2 pi[c] -> f6p[c] + 2 pi[e],,,,Transport,0,0,1000,0,,,"No genetic evidence; f6p can be made from fru (fructose), which import is supported by literature",
+NCAMUP,NCAMUP,ncam[e] -> ncam[c],,,,Transport cofactor,0,0,1000,0,,,Duplicate of EX_nicotinamide2,
+L_LACt2r,L LACt2r,h[e] + lac_L[e] <=> h[c] + lac_L[c],,,,Transport,1,-1000,1000,0,,,No genetic evidence; reaction bypasses need for glycolysis,
+2_1_1_103,phosphoethanolamine N-methyltransferase,3 ametam[c] + ethamp[c] <=> 3 ahcys[c] + cholp[c],,,,AminoAcids MetPolyamineMetabolism ; Lipids PhosphatidylcholineMetabolism,1,-1000,1000,0,,2.1.1.103,Not genetically supported; alternate product production pathways added; interferes with hypoxanthine being the only purine required for growth,
+GTPHs,GTPHs,gtp[c] + h2o[c] + h[c] -> nh4[c] + xtp[c],,,,Nucleotides PurineMetabolism,0,0,1000,0,,,"no genetic evidence, and not needed for anything",
+GTHOr_mt,glutathione-disulfide reductase,gthox[m] + h[m] + nadph[m] <=> 2 gthrd[m] + nadp[m],(PF14_0192),PF14_0192,,Redox RedoxMetabolism ; Redox MitochondrialAntioxidantSystem,1,-1000,1000,0,,1.8.1.7,Mito version replaced with apico and cyto,DOI: 10.1371/journal.ppat.1001242
+GTHP_mt,glutathione peroxidase,2 gthrd[m] + h2o2[m] <=> gthox[m] + 2 h2o[m],(PFL0595c),PFL0595c,,Redox RedoxMetabolism ; Redox MitochondrialAntioxidantSystem,1,-1000,1000,0,,1.11.1.9,Mito version replaced with apico and cyto, doi: 10.1371/journal.ppat.1001242; doi: 10.1111/j.1365-2958.2006.05303.x
+DM_4HBA,DM 4HBA,4hba[c] ->,,,,Exchange,0,0,1000,0,,,Switch from Demand to Exchange,
+GTHRDtmt,GTHRDtmt,gthrd[m] <=> gthrd[c],,,,Transport MT,1,-1000,1000,0,,,,
+EX_lac_L_LPAREN_e_RPAREN_,EX lac L e,lac_L[e] <=>,,,,Exchange,1,-1000,1000,0,,,Should not be reversible,
+AKGtmt,AKGtmt,akg[m] + mal_L[c] -> akg[c] + mal_L[m],(PF08_0031),PF08_0031,,Transport MT,0,0,1000,0,,,Replaced with greater specificiity,
+SUCD3_u6m_mt,,,,,,,,,,,,,"Lumped reactions together - FAD cofactor, reaction halves are joined",
+TALA,transaldolase,g3p[c] + s7p[c] <=> e4p[c] + f6p[c],,,,Carbohydrates PentosePhosphateCycle,1,-1000,1000,0,low,2.2.1.2,No genetic evidence; this reaction allows glyolysis to run without glucose,DOI: 10.1186/1475-2875-4-17
+OMMBLHX3_mt,OMMBLHX3 mt,2ommbl[m] + 2 atp[m] + 3 h2o[m] + nad[m] -> 2omhmbl[m] + 2 adp[m] + 3 h[m] + nadh[m] + 2 pi[m],,,,Cofactors UbiquinoneMetabolism,0,0,1000,0,,,No genetic evidence; OMMBLHX uses same substrate for production of 2omhmbl,
+Ht,Ht,h[c] <=> h[e],,,,Transport,1,-1000,1000,0,,,,
+ASPTA_mt,aspartate transaminase,akg[m] + asp_L[m] <=> glu_L[m] + oaa[m],(PFB0200c),PFB0200c,,AminoAcids AsnAspMetabolism ; Carbohydrates PyruvateMetabolism ; AminoAcids GluMetabolism,1,-1000,1000,0,,2.6.1.1,removed Mitochondrial version,"Wrenger et al, J Mol Biol 2010"
+O2St,O2St,o2s[c] <=> o2s[e],,,,Transport,1,-1000,1000,0,,,,
+lipid5,Formation of generic PE,pe[c] <==> pe120[c] + pe140[c] + pe141[c] + pe160[c] + pe161[c] + pe180[c] + pe181[c],,,,Lipids,,,,,,,,
+PLIPC,,,,,,,,,,,,,,
+DAGCPT,,,,,,,,,,,,,,
+SMS,,,,,,,,,,,,,,
+pc_prod,,,,,,,,,,,,,,
+PIPLC,phospholipase C generic,h2o[c] + pail[c]  => dag[c] + h[c] + mi1p_D[c] ,(PF10_0132),PF10_0132,,Lipids PhosphatidylcholineMetabolism ; Lipids PhosphatidyletanolaminePhosphatidylserineMetabolism ; Lipids UtilizationPhospholipids,0,0,1000,0,,3.1.4.3,,
+GAT_c,GAT_c,dag[c] + acoa[c]  => coa[c] + tag[c] ,(PFC0995c),PFC0995c,,Lipids LipidProduction,0,0,1000,0,,2.3.1.20,previously PAPA120:PAP180,"Plasmodb;  doi: 10.1242/jcs.00988, 10.1016/j.molbiopara.2003.08.017"
+DGAT,DGAT,Rtotalcoa[c] + dag[c]  => coa[c] + tag[c] ,,,,Lipids PhosphatidyletanolaminePhosphatidylserineMetabolism,0,0,1000,0,,,,
+dgl_prod1,dgl_prod1,dag[c]  => all_dgl[c] ,,,,Lipids LipidProduction,0,0,1000,0,,,,
+LPS,triacylglycerol lipase,h2o[c] + tag[c]  => Rtotal[c] + dag[c] + h[c] ,,,,Lipids PhosphatidylethanolaminePhosphatidylserineMetabolism,0,0,1000,0,,3.1.1.3,,
+ETHAPT,ethanolaminephosphotransferase,cdpea[c] + 0.01 dag[c]  <=> cmp[c] + h[c] + 0.01 pe[c] ,(PFF1375c),PFF1375c,,Lipids PhosphatidyletanolaminePhosphatidylserineMetabolism,1,-1000,1000,0,,2.7.8.1,,doi:10.1128/EC.00255-07
+3OAS181_ap,,h[ap] + hdeACP[ap] + malACP[ap] --> 3ocvac11eACP[ap] +  ACP[ap] + o2[ap],(PFB0505c) or (PFF1275c),PFB0505c PFF1275c,,Lipids_FattyAcidSynthesis,,,,,,2.3.1.41,No fabB/F activity for chains longer than 16 carbons,doi:10.1128/EC.00255-07
+3OAS180_ap,,h[ap] + palmACP[ap] + malACP[ap] --> 3ooctdACP[ap] +  ACP[ap] + o2[ap],(PFB0505c) or (PFF1275c),PFB0505c PFF1275c,,Lipids_FattyAcidSynthesis,,,,,,2.3.1.41,No fabB/F activity for chains longer than 16 carbons,doi:10.1128/EC.00255-06
+3OAR180_ap,,3ooctdACP[ap] + h[ap] + nadph[ap] <==> 3hoctaACP[ap] + nadp[ap],(PFI1125c),PFI1125c,,Lipids_FattyAcidSynthesis,,,,,,1.1.1.100,"Since no fabB/F activity, this reaction is not present either",doi:10.1128/EC.00255-05
+3OAR181_ap,,3ocvac11eACP[ap] + h[ap] + nadph[ap] --> 3hcvac11eACP[ap] + nadp[ap],(PFI1125c),PFI1125c,,Lipids_FattyAcidSynthesis,,,,,,1.1.1.100,"Since no fabB/F activity, this reaction is not present either",doi:10.1128/EC.00255-04
+3HAD180_ap,,3hoctaACP[ap] --> h2o[ap] + toctd2eACP[ap],(PF13_0128),PF13_0128,,Lipids_FattyAcidSynthesis,,,,,,4.2.1.61,"Since no fabB/F activity, this reaction is not present either",doi:10.1128/EC.00255-03
+3HAD181_ap,,3hcvac11eACP[ap] --> h2o[ap] + t3c11vaceACP[ap],(PF13_0128),PF13_0129,,Lipids_FattyAcidSynthesis,,,,,,4.2.1.61,"Since no fabB/F activity, this reaction is not present either",doi:10.1128/EC.00255-02
+EAR180x_ap,,h[ap] + nadh[ap] + toctd2eACP[ap] --> nad[ap] + ocdcaACP[ap],(PFF0730c),PFF0730c,,Lipids_FattyAcidSynthesis,,,,,,4.2.1.62,"Since no fabB/F activity, this reaction is not present either",doi:10.1128/EC.00255-01
+EAR181x_ap,,h[ap] + nadh[ap] + t3c11vaceACP[ap] --> nad[ap] + octeACP[ap],(PFF0730c),PFF0730c,,Lipids_FattyAcidSynthesis,,,,,,4.2.1.63,"Since no fabB/F activity, this reaction is not present either",doi:10.1128/EC.0025500
+EX_pyr_LPAREN_e_RPAREN_,pyruvate export ,  --> pyr_e,,,,,,,,,,,,other reaction fulfills the export function (PYRt2r)
+EX_h_LPAREN_e_RPAREN_,,,,,,,,,,,,,,
+lipid3,Multiple dag species assignemnt to dag_c,,,,,,,,,,,,,not biologically supported
+lipid8,Multiple dag species assignemnt to  dag_e,,,,,,,,,,,,,not biologically supported
+lipid10,Multiple pe species assignemnt to  pe_e,,,,,,,,,,,,,not biologically supported
