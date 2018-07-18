@@ -17,8 +17,6 @@ import time
 # Using Cobrapy 0.13
 import cobra
 import cobra.test
-from cobra.flux_analysis import flux_variability_analysis
-
 
 #-----------------------------------------------------------------------------------------#
 
@@ -157,15 +155,23 @@ def checkQuality(model, exclude=[], cytosol='c'):
     return gaps, freemass, balance, blocked
 
 
+# Write lists to files
+def listWrite(outList, outFileName)
+    if len(outList) != 0:
+        with open(outFileName, 'w') as outFile:
+            for x in outList:
+                line = x + '\n'
+                outFile.write(line)
+
+
 #-----------------------------------------------------------------------------------------#
 
 # Run it
+orphanList, freeList, imbalList, blockedList = checkQuality(sys.argv[1], sys.argv[2])
 
-input_model = sys.argv[1]
-obj_func = sys.argv[2]
-
-orphanList, freeList, imbalList, blockedList = checkQuality(input_model, obj_func)
-
-
-
+# Write lists to files
+listWrite(orphanList, 'orphan_rxn.txt')
+listWrite(freeList, 'free_cpd.txt')
+listWrite(imbalList, 'imbalanced_rxn.txt')
+listWrite(blockedList, 'blocked_rxn.txt')
 
