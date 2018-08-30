@@ -17,12 +17,12 @@ from cobra.flux_analysis.sampling import OptGPSampler
 from cobra.manipulation.delete import *
 from cobra.flux_analysis.parsimonious import add_pfba
 from cobra.medium import find_boundary_types
-
+from cobra.util import solver as sutil
 
 # pFBA gapfiller
 def pfba_gapfill(model, reaction_bag, obj=None, obj_lb=10., obj_constraint=False,
                  iters=1, tasks=None, task_lb=0.05, 
-                 add_exchanges=True, extracellular='e'):
+                 add_exchanges=True, extracellular='e', cores=4):
     '''
     Function that utilizes iterations of pFBA solution with a universal reaction bag 
     in order to gapfill a model.
@@ -52,6 +52,8 @@ def pfba_gapfill(model, reaction_bag, obj=None, obj_lb=10., obj_constraint=False
         are not associated with exchange reactions and creates them
     extracellular : string
         Label for extracellular compartment of model
+    cores : int
+        Number of processors to utilize during flux sampling
     '''
     start_time = time.time()
     
@@ -114,7 +116,8 @@ def pfba_gapfill(model, reaction_bag, obj=None, obj_lb=10., obj_constraint=False
 
         if iters > 1:
             print('Generating flux sampling object...')
-            optgp_object = OptGPSampler(universal, processes=4)
+            sutil.fix_objective_as_constraint(universal, fraction=0.99)
+            optgp_object = OptGPSampler(universal, processes=cores)
         
             # Assess the sampled flux distributions
             print('Sampling ' + str(iters) + ' flux distributions...')
